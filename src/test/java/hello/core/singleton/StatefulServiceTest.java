@@ -21,6 +21,8 @@ class StatefulServiceTest {
         //사용자 a 가 주문 금액 조회한다면?
         int price = statefulService1.getPrice();
         System.out.println(price);
+
+
     }
 
     static class TestConfig{
